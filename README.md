@@ -6,4 +6,5 @@ Liyan Song; Leandro L. Minku; Xin Yao. "Software Effort Interval Prediction via 
 Author of code:
 Liyan Song, Southern University of Science and Technology, China.
 
-The code requires the following Matlab libraries, which can be downloaded under the paid Matlab licenses:
+The code only requires basic Matlab libraries, which can all be downloaded with a purchased Matlab licenses.
+
