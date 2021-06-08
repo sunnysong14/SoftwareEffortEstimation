@@ -27,7 +27,8 @@ function example_run_SynB_RVM()
 % SynB-RVM's hyper-parameters
 m_bags = 10;        %  #(Bootstrap Bags)
 pru_m = 0.1;        % prune rate
-tho = 0.01;         % syn displace; tho=0: without Syn
+tho = 0.01;         % synthetic displacement
+% 
 width_best = 4.3;   % can be independently tuned with a validation set
 
 % confidence level
