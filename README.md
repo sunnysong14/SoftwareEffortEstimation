@@ -37,4 +37,8 @@ More information on the implementation and how to run the code can be found in "
 
 <p align="right">Enjoy~</p>
 
-<p align="right">Liyan Song, June 2021</p>
+<p align="right">Liyan Song</p>
+
+<p align="right">8th June 2021</p>
+
+
