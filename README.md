@@ -32,7 +32,7 @@ The foler "matlab/example-para_tune" contains the examples that tune the paramet
     >> experiment_para_tune()
 
 
-Information about the training and prediction algorithms implemented can be found in Algorithm 2 and Algorithm 3 of the paper, respectively.
+Information about how the training and prediction algorithms are implemented can be found in Algorithm 2 and Algorithm 3 of the paper, respectively.
 
 
 <p align="right">Enjoy~</p>
