@@ -25,7 +25,7 @@ A quick start of running the whole implementation of SynB-RVM can refer to the s
 
     >> example_run_SynB_RVM()
 
-The foler "matlab/example-para_tune" contains the examples that tune the parameter of SynB-RVM. To run this example, the following command can be used
+The folder "matlab/example-para_tune" contains the examples that tune the parameter of SynB-RVM. To run this example, the following command can be used
     
     >> experiment_para_tune()
 
