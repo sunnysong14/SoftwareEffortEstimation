@@ -3,10 +3,8 @@ This repository contains the code used for the paper:
 
 Liyan Song, Leandro L. Minku, and Xin Yao. "Software Effort Interval Prediction via Bayesian Inference and Synthetic Bootstrap Resampling", ACM Transactions on Software Engineering Methodology, 28(1):1–46, Februray 2019.
 
-Author of code:
-
-Liyan Song, Southern University of Science and Technology, China.
-
+Author of code: Liyan Song at Southern University of Science and Technology, China.
+Email: songly@sustech.edu.cn
 
 The code only requires basic Matlab libraries, which can all be downloaded with a purchased Matlab licenses.
 
