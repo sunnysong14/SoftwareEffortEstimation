@@ -1,15 +1,11 @@
 # SoftwareEffortEstimation
 This repository contains the code used for the paper:
 
-Liyan Song; Leandro L. Minku; Xin Yao. "Software Effort Interval Prediction via Bayesian Inference and Synthetic Bootstrap Resampling", ACM Transactions on Software Engineering Methodology, 28(1):1–46, Februray 2019.
+```
+Liyan Song, Leandro L. Minku, and Xin Yao. "Software Effort Interval Prediction via Bayesian Inference and Synthetic Bootstrap Resampling", ACM Transactions on Software Engineering Methodology, 28(1):1–46, Februray 2019.
+```
 
-Author of code:
-
-Liyan Song, Southern University of Science and Technology, China.
-
-
-The code only requires basic Matlab libraries, which can all be downloaded with a purchased Matlab licenses.
-
+The code requires basic Matlab libraries, which can all be downloaded with a purchased Matlab licenses.
 There are two folders as below:
   * "matlab/" -- containing the codes implementing this tool;
   * "data_example/" -- containing the edited software projects for SEE produced based on Nasa93.
@@ -27,7 +23,7 @@ A quick start of running the whole implementation of SynB-RVM can refer to the s
 
     >> example_run_SynB_RVM()
 
-The foler "matlab/example-para_tune" contains the examples that tune the parameter of SynB-RVM. To run this example, the following command can be used
+The folder "matlab/example-para_tune" contains the examples that tune the parameter of SynB-RVM. To run this example, the following command can be used
     
     >> experiment_para_tune()
 
@@ -37,8 +33,8 @@ Information about how the training and prediction algorithms are implemented can
 
 <p align="right">Enjoy~</p>
 
-<p align="right">Liyan Song</p>
-
-<p align="right">8th June 2021</p>
+<p align="right">Liyan Song, June 2021</p>
+<p align="right">Email: songly@sustech.edu.cn</p>
+<p align="right">Southern University of Science and Technology, China</p>
 
 
