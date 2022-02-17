@@ -173,7 +173,7 @@ fprintf(['\n', repmat('=', 1, 40), '\n']);
 fprintf('Predictive PF of "%s" with SynB_RVM_%s.\n', 'Nasa93', our_type_char);
 
 % set up the reported result
-eval(['mae_our = mae_', our_type_char, ';']);           % mae_our
+eval(['mae = mae_', our_type_char, ';']);               % mae
 eval(['y_pre_mean = y_pre_mean_', our_type_char, ';'])  % y_pre_mean
 eval(['hit_rate = hit_rate_', our_type_char, ';'])      % hit_rate
 eval(['PIs = PI_', our_type_char, ';'])                 % PIs
@@ -182,7 +182,12 @@ eval(['relative_width = relative_width_', our_type_char, ';'])  % relative_width
 % overall PF
 fprintf([repmat('-', 1, 40), '\n']);
 fprintf('Overall predictive PF is as below:\n');
-fprintf('\t mae = %0.1f \n\t hit_rate = %0.2f \n\t relative width = %0.2f \n', mae_our, hit_rate, relative_width);
+
+fprintf('\t mae = %0.1f \n', mae);
+fprintf('\t hit_rate = %0.2f \n', hit_rate);
+fprintf('\t relative width = %0.2f \n', mae, hit_rate, relative_width);
+
+fprintf('\t mae = %0.1f \n\t hit_rate = %0.2f \n\t relative width = %0.2f \n', mae, hit_rate, relative_width);
 
 % PIs of test examples
 fprintf([repmat('-', 1, 40), '\n']);
