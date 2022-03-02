@@ -134,7 +134,7 @@ para_best = para_pairs(id_min, :);
 
 % % % % % Result showcase %%%%
 fprintf(['\n', repmat('=', 1, 40), '\n']);
-fprintf('The best parameter setting based on this experiment is as below: \n');
+fprintf('The best hyperparameter setting based on this experiment is as below: \n');
 fprintf('\t the best number of Bootstrap bags is %d\n', m_bags_best);
 fprintf('\t the best degree of synthetic displacement is %0.2f\n', tho_best);
 fprintf('\t the best pruning rate is %0.1f\n\n', pru_m_best);
